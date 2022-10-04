@@ -36,9 +36,12 @@
         </c:forEach>
     </table><br>
 
-    <form action="findOpotion.jsp" method="post">
+    <form action="/users?action=find" method="post">
         <input type="text" name="country" placeholder="Country" value=""/><br>
         <input type = "submit" id = "submit" value = "Tìm kiếm"/>
+    </form>
+    <form action="/users?action=sort" method="post">
+        <input type = "submit"  value = "sắp xếp"/>
     </form>
 </div>
 </body>
